@@ -1,0 +1,18 @@
+.title{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    display:flex;
+
+}
+
+.wrapCards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
