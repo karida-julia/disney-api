@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import s from './App.module.css'
 import { api } from "./api/api"
 import { Card } from './components/card'
-
+import logo from '../public/logo.png'
 
 function App() {
   const [data, setData] = useState([])
@@ -20,7 +20,7 @@ function App() {
   
   return (
     <>
-    <h1 className={s.title}>Disney</h1>
+    <img src={logo} className={s.logo} />
     <main>
       <div style={{display: "flex", flexWrap: "wrap", gap: "Spx", alignItems: "center", justifyContent: "center"}}>
         <input type="text" value={searchPage}  onChange={(e) => setSearchPage(e.target.value)} placeholder='1/149'/>

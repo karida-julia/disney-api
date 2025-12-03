@@ -1,5 +1,5 @@
 .cardBackground{
-    background-color: rgb(3, 0, 172);
+    background-color: rgba(31, 158, 243, 0.712);
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -9,13 +9,14 @@
     gap: 2vh;
     width: 300px;
     height:450px;
+    text-shadow: -2px 2px 5px black;
+    border: 2px solid white;
 }
 
 .cardImg{
     width: 200px;
     height: 300px;
-    box-shadow: azure;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
-.cardname{
-}
